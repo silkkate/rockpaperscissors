@@ -73,6 +73,7 @@ def main():
                         sys.exit()
         except NameError or ValueError:
             continue
-main()
+if __name__ == "__main__":
+    main()
 
 
